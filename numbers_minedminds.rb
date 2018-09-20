@@ -1,7 +1,7 @@
 count = 1 
 until count == 101
-	if count %3 == 0
-		puts"mined"
+	if count %5 == 0
+		puts"minds"
 	else
 	puts count 
 	end
