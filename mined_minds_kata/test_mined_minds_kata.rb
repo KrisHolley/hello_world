@@ -16,4 +16,16 @@ class My_test < Minitest::Test
 	def test_number_3
 		assert_equal("mined",mmkata(3))
 	end
+	def test_number_6
+		assert_equal("mined",mmkata(6))
+	end
+	def test_number_5
+		assert_equal("minds",mmkata(5))
+	end
+	def test_number_15
+		assert_equal("mined minds",mmkata(15))
+	end
+	def test_number_30
+		assert_equal("mined minds",mmkata(30))
+	end
 end
